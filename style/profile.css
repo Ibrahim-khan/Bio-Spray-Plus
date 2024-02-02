@@ -1,0 +1,31 @@
+.profilepic{
+	margin-left:25%;
+}
+
+@media (max-width:600px){
+	.profilepic{
+		margin:auto;		
+	}
+	
+}
+
+.profile{
+	background-color:#E5E8E8;
+	width:50%;
+	margin-left:25%;
+	height:auto;
+	border-radius:20px;
+	border:2px dotted blue;
+	
+}
+.profile p{
+	font-size:22px;
+	margin-left:10px;
+	text-align:left;
+	text-shadow: 1px 1px black;
+}
+.profile h2{
+	font-size:40px;
+	text-align:center;
+	text-decoration:underline;
+}
