@@ -30,11 +30,11 @@
 							/*Management start*/
 								.managementpic{
 									overflow:auto;
+									width:100%;
 								}
 								.managementpic div{
 									float:left;
 									height:345px;
-									width:22%;
 									overflow:hidden;
 									margin:10px;
 									border:3px solid gray;
@@ -43,6 +43,7 @@
 								.managementpic1 img{
 									width:297px;
 									height:250px;
+									float:center;
 									
 								}
 								.managementpic1 h2{
@@ -53,13 +54,24 @@
 									font-size:20px;
 								}
 								
-								@media (max-width:1000px){
-									.managementpic{
-										overflow:auto;
-									}
+								@media only screen and (max-width:500px){									
 									.managementpic div{
 										height:345px;
 										width:100%;
+									}
+								}
+								
+								@media only screen and (min-width:500px){									
+									.managementpic div{
+										height:345px;
+										width:44%;
+									}
+								}
+								
+								@media only screen and (min-width:800px){	
+									.managementpic div{
+										height:345px;
+										width:29%;										
 									}
 								}
 								/*Management end*/

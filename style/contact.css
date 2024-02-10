@@ -5,7 +5,15 @@
 	height:auto;
 	border-radius:20px;
 	border:2px dotted blue;
-	
+}
+
+@media (max-width:700px){
+	.contact{
+		width:100%;
+		margin-left:0px;
+		margin-right:20px;
+		height:auto;
+	}
 }
 .contact p{
 	font-size:22px;
