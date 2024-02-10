@@ -1,12 +1,5 @@
 .profilepic{
-	margin-left:25%;
-}
-
-@media (max-width:600px){
-	.profilepic{
-		margin:auto;		
-	}
-	
+	text-align:center;
 }
 
 .profile{
@@ -16,8 +9,17 @@
 	height:auto;
 	border-radius:20px;
 	border:2px dotted blue;
-	
 }
+
+@media (max-width:700px){
+	.profile{
+		width:100%;
+		margin-left:0px;
+		margin-right:20px;
+		height:auto;
+	}
+}
+
 .profile p{
 	font-size:22px;
 	margin-left:10px;
