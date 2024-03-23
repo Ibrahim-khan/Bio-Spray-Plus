@@ -3,11 +3,15 @@
 	<head>
 		<title>Bio Spray Plus</title>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width" "initial-scale=1.0">
+		<meta name="viewport" content="width=device-width initial-scale= 1">
 		<link href="style/style.css" rel="stylesheet"/>
 		<link rel="icon" type="image/x-icon" href="images/biospray.png">
+		<!--Bootstrap link-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	</head>
 	<body>
+
+		<div class="container">
 				<!--Logo start-->
 				<div class="logo">
 				<a href="http://www.abnutric.com/Web/products/ListOfProducts-bio.asp" target="_blank">
@@ -31,7 +35,7 @@
 				        
 						<!--Notice start-->
 						<div class="notice">
-						 <p><b>Notice:</b> <div class="notice1">অরিজিনাল বায়ো স্প্রে প্লাস কিনতে সরাসরি অফিসে যোগাযোগ করুন। অনলাইনে পণ্য কিনে প্রতারিত হবেন না। 
+						 <p><b>Notice: </b> <div class="notice1"> অরিজিনাল বায়ো স্প্রে প্লাস কিনতে সরাসরি অফিসে যোগাযোগ করুন। অনলাইনে পণ্য কিনে প্রতারিত হবেন না। 
 						     বিস্তারিতঃ 01742 095 986</div></p>
 						</div>
 						<!--Notice End-->
@@ -60,15 +64,47 @@
 			<!--Nav bar logo end-->
 			
 						<!--Cover photo start-->
-						<div class="coverphoto">
-						<img src="coverphoto/coverphoto1.jpg" alt="Bio Spray Plus" height="500px" width="100%">
-						</div>
+						<!--Carousal Start-->
+						<div class="container mt-2">						
+							<!--carousel-->
+							<div id="demo" class="carousel slide" data-bs-ride="carousel">
+	  
+							  <!--Indicators/dots-->
+							  <div class="carousel-indicators">
+								<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+								<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+								<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+							  </div>
+							  
+							  <!--The slideshow/carousel-->
+							  <div class="carousel-inner">
+								<div class="carousel-item active">
+								  <img src="coverphoto/coverphoto.jpg" alt="" class="d-block" style="width:100%">								  
+								</div>
+								<div class="carousel-item">
+								  <img src="coverphoto/coverphoto1.jpg" alt="" class="d-block" style="width:100%">							  
+								</div>
+								<div class="carousel-item">
+								  <img src="coverphoto/coverphoto2.jpg" alt="" class="d-block" style="width:100%">								  
+								</div>
+							  </div>
+	  
+							  <!--left and right controls icon-->                       
+							  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon"></span>
+							  </button>
+							  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+								<span class="carousel-control-next-icon"></span>
+							  </button>
+							</div>
+						  </div>
+						  <!--Carousal End-->
 						<!--Cover photo end-->
 
 
 						        <!--Blog line start-->																
 								<div class="blog">						
-								  <h3><a href="blog.html">Blog</a></h3>								  
+								  <h5><a href="blog.html">Blog</a></h5>								  
 								</div>																
 								<!--Blog line end-->
 								         
@@ -76,7 +112,7 @@
 										<div class="blogall">
 										 
 										 <div class="bf1">
-										 <h3>Bio Spray Plus কি?</h3>
+										 <h4>Bio Spray Plus কি?</h4>
 										   <p>বায়ো স্প্রে প্লাস আসলে একটা ডায়াটারী ফুড সাপ্লিমেন্ট। যা মানব দেহের কোষ বিভাজনে সহায়তা করে ।<br><br>
 ১) বায়ো স্প্রে প্লাস এর প্রধান কাজ হচ্ছে হিউম্যান গ্রোথ হরমোন ডেভেলপ করা। সাধারণত বয়স ২৫ এর আগে আমাদের শরীরে প্রচুর পরিমাণ হিউম্যান গ্রোথ হরমোন উৎপাদিত হয় 
 কিন্তু বয়স ২৫ এর পর থেকে প্রতি বছর ১.৪% মানে প্রতি ১০ বছর ১৪% করে কমে যেতে থাকে। যার ফলে আমরা ধীরে ধীরে বৃদ্ধ হওয়ার দিকে ধাবিত হতে থাকি। 
@@ -98,7 +134,7 @@
 										  </div>
 										 
 										 <div class="bf1">
-										 <h3>Bio Spray Plus কি কি কাজ করে?</h3>
+										 <h4>Bio Spray Plus কি কি কাজ করে?</h4>
 										   <p>* রক্ত সঞ্চালন প্রক্রিয়া সঠিক রাখে।<br>
 * শরীরের কোষ উৎপাদন HGH (হিউম্যান গ্রোথ হরমোন) স্বাভাবিক রাখে।<br>
 * মাংসপেশী ও ত্বকের পুরুত্ব বাড়ায়। <br>
@@ -135,7 +171,7 @@
 										 </div>
 										 
 										 <div class="bf1">  
-										 <h3>Bio Spray Plus ব্যবহারের নিয়ম?</h3>
+										 <h4>Bio Spray Plus ব্যবহারের নিয়ম?</h4>
 										   <p>১) দৈনিক ২ বার গ্রহণ করতে হবে। সকালে ঘুম থেকে প্রথম উঠার পর কোন প্রকার থুথু না ফেলে Bio Spray Plus গ্রহণ করতে হবে। পরবর্তীতে হালকা ব্যায়াম বা হাঁটাহাঁটি করা উত্তম এবং রাত্রে ঘুমানোর পূর্বে গ্রহণ করতে হবে।<br>
 ২) সর্বাধিক ফলাফলের জন্য শয়নের পূর্বে খালি পেটে অথবা ব্যায়ামের পূর্বে Bio Spray Plus গ্রহণ করা। <br>
 ৩) Bio Spray Plus উত্তমরূপে ঝাঁকিয়ে নিয়ে জিহ্বার নিচে গ্রহণের সাথে সাথে মুখ বন্ধ করতে হবে এবং ৩-৫ মিনিট পর মুখের মধ্যে টক টক মিষ্টি এক প্রকার জুসের মত অনুভূত হবে, তাহা গিলে ফেলতে হবে এবং আরও ৩-৫ মিনিট মুখ বন্ধ রাখার পর ৫০০-৬৫০মিলি পানি পান করতে হবে। অবশ্যই শ্বাস কষ্টের রুগীরা কুসুম গরম পানি পান করবেন। কোর্স চলাকালীন সময়ে প্রতি ঘন্টায় অল্প অল্প পানি পানি করা ভাল। <br>
@@ -162,23 +198,23 @@ Bio Spray Plus ব্যবহারে নিম্নে উল্লেখি
 <!--Video start-->
 <div class="video">
 	<div class="firstvideo">
-	<h4>বায়ো স্প্রে প্লাস কোন কোন রোগের জন্য কাজ করে।</h4>
+	<h6>বায়ো স্প্রে প্লাস কোন কোন রোগের জন্য কাজ করে।</h6>
 	<iframe src="https://www.youtube.com/embed/ovmdHhi1dMA" title="বায়ো স্প্রে প্লাস কোন কোন রোগের জন্য কাজ করে। Bio Spray Plus ।" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</div>
 	
 			<div class="firstvideo">
-			<h4>বায়ো স্প্রে প্লাস কি কি রোগের জন্য কাজ করে।</h4>
+			<h6>বায়ো স্প্রে প্লাস কি কি রোগের জন্য কাজ করে।</h6>
 			<iframe src="https://www.youtube.com/embed/oSiZp_2YiUQ" title="বায়ো স্প্রে প্লাস কি কি রোগের জন্য কাজ করে দেখুন। জীবন যতদিন সুস্থতা ততদিন।। Bio Spray Plus ।।" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			
 	<div class="firstvideo">
-	<h4>বায়ো স্প্রে প্লাস কিভাবে কাজ করে।</h4>
+	<h6>বায়ো স্প্রে প্লাস কিভাবে কাজ করে।</h6>
 	<iframe src="https://www.youtube.com/embed/oWqIGljoFIQ" title="বায়ো স্প্রে প্লাস কিভাবে কাজ করে। Bio Spray Plus." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</div>
 	
 	
 	<div class= "vnone">
-	<h4>Spine and leg pain completely healed.</h4>	
+	<h6>Spine and leg pain completely healed.</h6>	
 	<iframe src="https://www.youtube.com/embed/jfvRuz4842o" title="Spine and leg pain is completely healed through Bio Spray Plus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</div>
 </div>
@@ -311,9 +347,11 @@ Bio Spray Plus ব্যবহারে নিম্নে উল্লেখি
 				</a><!--ABNutric product link-->	
 			</div>											
 		</div>
+		</div>
 										
-		<!--Footer End-->	
-		<script src = "script.js"></script>																														
+		<!--Js, Jquery linkS-->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>																														
 	</body>
 
 </html>
