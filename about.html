@@ -3,10 +3,13 @@
 	<head>
 		<title>Bio Spray Plus</title>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width" "initial-scale=1.0">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
 		<link href="style/style.css" rel="stylesheet"/>
 		<link href="style/about.css" rel="stylesheet"/>
 		<link rel="icon" type="image/x-icon" href="images/biospray.png">
+
+		<!--Bootstrap link-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	</head>
 	<body>
 				<!--Logo start-->
@@ -37,27 +40,60 @@
 						<!--Notice End-->
 		
 	
-	    <!--Nav bar-->
-		<div class="navmenu"><b>
-		  <a href="index.html">Home</a>
-		  <a href="video.html">Video</a>
-		  <a href="blog.html">Blog</a>
-		  <a href="profile.html">Profile</a>
-		  <a href="about.html">About Us</a>									 							
-		  <a href="contact.html">Contact Us</a>
-		  <a href="order.html">Order Now</a></b>
-		  
-		</div><!--Nav bar end-->
-		    
-			<!--Nav bar logo start-->
-			<div class="navbarbiospray">
-			 <img src="logo/biosprayplus.png" alt="Bio Spray Plus" height="80px" width="80px">
-			</div>
-			
-			<div class="navbarnutric">
-			<img src="logo/nutric1.png" alt="Nutric Group" height="100px" width="100px">
-			</div> 
-			<!--Nav bar logo end-->
+	     <!--Navbar start-->                    
+                      
+		<nav class="navbar navbar-expand-sm fw-bold">  
+			<div class="navmenu mt-1 container-fluid p-2">
+			  
+			  <a class="navbar-brand" href="#">
+				<img src="logo/biospray.jpg" alt="logo" style="width:40px" class="rounded-pill">
+			  </a>
+
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+				
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">                       
+					<ul class="navbar-nav m-auto">
+					  <li class="nav-item">
+						<a class="nav-link text-black" href="index.html">Home</a>
+					  </li>
+						  <li class="nav-item">
+							<a class="nav-link text-black" href="video.html">Video</a>
+						  </li>
+					  <li class="nav-item">
+						<a class="nav-link text-black" href="blog.html">Blog</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link text-black" href="profile.html">Profile</a>
+					  </li>
+
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-black" role="button" data-bs-toggle="dropdown" href="#">About Us</a>
+						<ul class="dropdown-menu">
+						  <li>
+							<a class="dropdown-item" href="about.html">About Us</a>
+						  </li>
+						  <li>
+							<a class="dropdown-item" href="about.html">Management</a>
+						  </li>
+						  <li>
+							<a class="dropdown-item" href="about.html">Certificate</a>
+						  </li>
+						</ul>
+					  </li>
+
+					  <li class="nav-item">
+						<a class="nav-link text-black" href="contact.html">Contact us</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link text-black" href="order.html">Order now</a>
+					  </li>                             
+					</ul>   
+					</div>   
+					</div>                                        
+				</nav>  
+				<!--Navbar end-->
 			
 <!--About Us Start-->
   <div class="managementtext">
@@ -231,7 +267,11 @@ Thank you for choosing Nutric. We look forward to serving you and being a part o
 			</div>											
 		</div>
 										
-		<!--Footer End-->																													
+		<!--Footer End-->	
+		
+		<!--Js, Jquery linkS-->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 			
 	</body>
 
