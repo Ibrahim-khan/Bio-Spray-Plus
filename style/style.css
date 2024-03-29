@@ -189,6 +189,20 @@
 									}
 								}
 								/*blog end*/
+
+								/*Feature start*/
+								.feature-col{
+									border: 1px solid blue;
+									border-radius: 5px;
+									padding: 10px;
+									margin:20px 0;
+									transition: 0.4s;
+								}
+								.feature-col:hover{
+									transform:scale(1.1);
+									box-shadow: 2px 6px 5px black;
+								}
+								/*Feature end*/
 								
 										/*Video start*/
 										.video{
