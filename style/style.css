@@ -149,15 +149,17 @@
 					.blog:hover{
 						opacity:1.0;
 					}
+
 					.seemore{
 						opacity:0.6;
 						text-align:center;
-						
+						margin-top: 0px;
+						margin-bottom:10px;
 					}
 					.seemore a{
 						text-decoration:none;
-						color:black;
 						font-size:20px;
+						color:black;
 					}
 					.seemore:hover{
 						opacity:1.0;					
@@ -199,6 +201,20 @@
 									transition: 0.4s;
 								}
 								.feature-col:hover{
+									transform:scale(1.1);
+									box-shadow: 2px 6px 5px black;
+								}
+								/*Feature end*/
+
+								/*Feature start*/
+								.feature1-col{
+									border: 1px solid blue;
+									border-radius: 5px;
+									padding: 5px;
+									margin:10px 0;
+									transition: 0.4s;
+								}
+								.feature1-col:hover{
 									transform:scale(1.1);
 									box-shadow: 2px 6px 5px black;
 								}
@@ -318,8 +334,9 @@
 										
 										.seemorecer{
 											border:2 px solid gray;
-											text-align:left;
+											text-align:center;
 											text-decoration:underline;
+											margin-bottom:10px;
 										}
 										
 /*certificate start*/
@@ -342,6 +359,21 @@
 	}
 }
 /*certificate end*/
+
+		/*certificate start*/
+		#tutorial{
+			padding: 4% 10%;
+		}
+		.card{
+			transition: .4s;
+			border: 1px solid blue;
+
+		}
+		.card:hover{
+			transform: scale(1.1);
+			box-shadow: 2px 6px 5px black;
+		}
+		/*certificate end*/
 										.testimonyst{
 											border:2 px solid gray;
 											text-align:left;
